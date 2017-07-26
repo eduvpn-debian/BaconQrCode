@@ -2,5 +2,5 @@
 version=3
 
 opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/BaconQrCode-$1\.tar\.gz/ \
-  https://github.com/Bacon/BaconQrCode/tags .*/?(\d\S+)\.tar\.gz
+  https://github.com/Bacon/BaconQrCode/tags .*/v?(\d\S+)\.tar\.gz
 
