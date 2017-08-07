@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/eduvpn-debian/BaconQrCode/
 
 Package: php-bacon-qr-code
 Architecture: any
-Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
+Depends: ${misc:Depends}, ${phpcomposer:Debian-require}, php-gd
 Suggests: ${phpcomposer:Debian-suggest}
 #Description: ${phpcomposer:description}
 Description: QR Code Generator for PHP
