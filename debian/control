@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/eduvpn-debian/BaconQrCode.git
 Vcs-Browser: https://github.com/eduvpn-debian/BaconQrCode/
 
 Package: php-bacon-qr-code
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}, php-gd
 Suggests: ${phpcomposer:Debian-suggest}
 #Description: ${phpcomposer:description}

@@ -1,3 +1,9 @@
+baconqrcode (1.0.1-3) stable; urgency=medium
+
+  * fix architecture
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Thu, 31 Aug 2017 12:01:02 +0200
+
 baconqrcode (1.0.1-2) stable; urgency=medium
 
   * add missing php-gd dependency
