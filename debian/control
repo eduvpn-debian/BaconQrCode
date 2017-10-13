@@ -12,5 +12,6 @@ Package: php-bacon-qr-code
 Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-require}, php-gd
 Suggests: ${phpcomposer:Debian-suggest}
-#Description: ${phpcomposer:description}
 Description: QR Code Generator for PHP
+ Port of QR code portion of the ZXing library. It currently only features the
+ encoder part, but could later receive the decoder part as well.
